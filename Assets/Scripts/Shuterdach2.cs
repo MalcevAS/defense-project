@@ -35,6 +35,7 @@ public class Shuterdach2 : MonoBehaviour
                     enemy = enemy - 1;
                     if (enemy == 0)
                     {
+                       
                         Debug.Log("kill");
                     }
                 }
