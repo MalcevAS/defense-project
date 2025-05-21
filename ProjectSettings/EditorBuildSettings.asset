@@ -9,15 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: fae9bb821fbf70c43a226c77b0b42a4b
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/lvl1.unity
+    guid: ea8f0a9c59085134bb66eb2fcd84a2bb
   - enabled: 1
     path: Assets/Scenes/lvl2.unity
     guid: e1034eac528186041b1583e4f434e1a4
-  - enabled: 0
-    path: Assets/Scenes/FINALBOSSGITMIZUL.unity
-    guid: 26c60dea64119e64fa2a8b4fa1827582
   - enabled: 1
-    path: Assets/Scenes/lvl1.unity
-    guid: ea8f0a9c59085134bb66eb2fcd84a2bb
+    path: Assets/Scenes/lvl3.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/endsreen.unity
+    guid: 2cadff77fd59d134f9b577c0378000b1
   m_configObjects: {}

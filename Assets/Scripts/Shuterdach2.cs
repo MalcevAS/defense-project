@@ -1,9 +1,8 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
-using UnityEngine.SceneManagement;
 
-public class Shuterdach1 : MonoBehaviour
+public class Shuterdach2 : MonoBehaviour
 {
     public GameObject externalShootlight;
     private Light shootLight;
@@ -13,7 +12,7 @@ public class Shuterdach1 : MonoBehaviour
         yield return new WaitForSeconds(1f);
         shootLight.enabled = false;
     }
-    
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -24,25 +23,22 @@ public class Shuterdach1 : MonoBehaviour
             {
                 shootlight.enabled = true;
             }
-            
+
             Ray ray = new Ray(transform.position, transform.forward);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
                 if (hit.collider.gameObject.tag == "npc")
                 {
-                    dachhealz1 victumState = hit.collider.gameObject.GetComponent<dachhealz1>();
+                    dachhealz2 victumState = hit.collider.gameObject.GetComponent<dachhealz2>();
                     victumState.makeDamage();
                     enemy = enemy - 1;
                     if (enemy == 0)
                     {
-                        SceneManager.LoadScene(3);
                         Debug.Log("kill");
                     }
                 }
             }
         }
     }
-    
 }
-

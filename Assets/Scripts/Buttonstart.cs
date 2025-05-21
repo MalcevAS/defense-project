@@ -10,7 +10,7 @@ public class Buttonstart : MonoBehaviour
     public void LoadScene()
     {
        
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(1);
     }
 
 }
