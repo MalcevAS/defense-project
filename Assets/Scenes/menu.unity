@@ -294,10 +294,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
       propertyPath: m_Text
-      value: "\u041B\u0415\u0413\u041D\u0414\u0410\u0420\u041D\u042B\u0419 \u0422\u0418\u0420
-        \u041A\u041E\u0422\u041E\u0420\u042B\u0419 \u041F\u041E\u0412\u0410\u041B\u0418\u0422
-        \u041D\u0415 \u0422\u041E\u041B\u042C\u041A\u041E \u041C\u0418\u0428\u0415\u041D\u0418
-        \u041D\u041E \u0418 \u0412\u0410\u0421!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+      value: "\u0426\u0418\u0424\u0420\u041E\u0412\u041E\u0419 \u0422\u0418\u0420"
       objectReference: {fileID: 0}
     - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
       propertyPath: m_Color.b
@@ -322,6 +319,18 @@ PrefabInstance:
     - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 135842962351722864, guid: a3aca97ed27480b40872ba8df9946d07, type: 3}
       propertyPath: m_FontData.m_Alignment
